@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient(to right, aqua, rgb(248, 11, 248));
+}
+
+.container-links {
+    margin-right: 10px;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container-form {
+    padding: 10pt 10pt 10pt 10pt;
+    width: 35%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 10px 0px black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.container-form label {
+    margin-top: 5%;
+}
+
+.container-form input {
+    margin-top: 2%;
+}
+
+.container-form button {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
