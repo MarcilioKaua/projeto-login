@@ -1,0 +1,7 @@
+body {
+    background-image: linear-gradient(to right, aqua, rgb(248, 11, 248));
+    margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+

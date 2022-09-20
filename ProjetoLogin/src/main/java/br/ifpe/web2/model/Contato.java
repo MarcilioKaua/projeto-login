@@ -2,17 +2,26 @@ package br.ifpe.web2.model;
 
 import java.util.Objects;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
+
+import org.springframework.beans.factory.annotation.Autowired;
 
 @Entity
 public class Contato {
 	
+	
 	private String nome;
-	@Id
+	@Id @Column(length = 50)
 	private String email;
+	@Column(length = 50)
 	private String senha;
+	@Column(length = 50)
 	private String endereco;
+	
 	
 	public String getNome() {
 		return nome;
